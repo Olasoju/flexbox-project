@@ -1,0 +1,15 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+.grid-items {
+    border: 2px solid black;
+}
+
+.grid-item-2 {
+    /* grid-column-start: 2;
+    grid-column-end: 4; */
+    grid-column: 2 / 4;
+}
